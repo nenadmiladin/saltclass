@@ -1,5 +1,6 @@
 install_apache:
   pkg.installed:
+    - parallel: True
     - pkgs:
       - httpd 
 
@@ -14,6 +15,6 @@ index_html:
 apache_service:
   service.running:
     - name: httpd
-    - enabled: True
+    - enable: True
 
    

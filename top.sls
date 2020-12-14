@@ -2,6 +2,7 @@
   - apache
   - nginx
   - users
+  - htop
 
 "application*":
   - app
